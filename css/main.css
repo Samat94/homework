@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.centered {
+    text-align: center;
+}
+a {
+    color: #313131;
+}
+a:hover, a:focus {
+    transition: .3s;
+    color: #7b7b7b;
+    text-decoration: none;
+    overflow: hidden;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition: .3s;
+}
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+#headerwrap {
+    background: url(../images/fengshy.jpg) no-repeat center top;
+    margin-top: -120px;
+    padding-top: 120px;
+    text-align: left;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 685px;
+    width: 100%;
+
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap h1 {
+    margin-top: 80px;
+    color: #24604e;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+#headerwrap h2 {
+    color: rgb(230, 245, 20);
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+}
+.dl #price {
+    color: #f5ecec;
+    font-size: 20px;
+}
+.w h5 h6 {
+    font-size: 25px;
+}
+.social {
+    width: 100%;
+    color: rgb(34, 25, 25);
+    background-color: #7b7b7b;
+    text-align: left;
+    padding-top: 3px;
+    padding-left: 100px;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+}
+.social #fa {
+    color: wheat;
+    padding-top: 0px;
+    font-size: 50px;
+    word-spacing: 40px;
+    padding-left: 100px;
+}
+.step {
+    height: 800px;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-left: 100px;
+    align-items: center;
+}
+.step #step1 {
+    display: inline-flex;
+    justify-content: ;   
+}
+#one {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+    margin: 10px 10px 10px 10px;
+}
+.step #text1 {
+    font-size: 17px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.step #step2 {
+    display: inline-flex;
+    justify-content: flex-start;
+    
+}
+#two {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+    margin: 10px 10px 10px 10px;
+}
+.step #text2 {
+    font-size: 17px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+.step #step3 {
+    display: inline-flex;
+    justify-content: flex-start;
+    
+}
+#three {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 40px 40px 40px 40px;
+    margin: 10px 10px 10px 10px;
+}
+.step #text3 {
+    font-size: 17px;
+    padding-left: 70px;
+}
+/*.step #img {
+    display: inline-block;
+    justify-content: right;
+}*/
+
+
+
+.dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    text-align: center;
+    font-size: 300px;
+}
+
+.dg H1 {
+    font-size: 70px;
+    margin-bottom: -380px;
+}
+.tilt a {
+    color: #96ee221f;
+}
+}
+/*.tilt {
+    -webkit-transition: all 0.5 ease;
+       -moz-transition: all 0.5 ease;
+         -o-transition: all 0.5 ease;
+        -ms-transition: all 0.5 ease;
+            transition: all 0.5 ease;
+}
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+}*/
+.w #advice {
+    padding-top: 70px;
+}
+.contact {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-left: 70px;
+    color: blanchedalmond;
+    height: 90px;
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(109, 100, 100);
+}
+/*.contact #fafa {
+    word-spacing: 20px;
+    padding-top: 20px;
+    padding-left: 200px;
+    font-size: 40px;
+}*/
+.input {
+    margin-top: 80px;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    height: 180px;
+    width: 280px;
+    background-color: #7b7b7b;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+#order {
+    font-size: 18px;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: -5px;
+    height: 180px;
+    width: 300px;
+}
+
